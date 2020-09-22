@@ -1,0 +1,98 @@
+.page-main{
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-family: 'Roboto';
+}
+
+body{
+  padding: 0;
+  margin: 0;
+}
+
+.main-header{
+  width: 100%;
+  background-color: #232931;
+  padding: 0 0 0 0;
+
+}
+.main-header__wrapper{
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1440px;
+  background-color: #232931;
+  color: #fff;
+}
+
+.main-header__img{
+  width: 100%;
+  height: auto;
+}
+
+
+.main-header__text-wrp{
+  padding: 10px 10px;
+  line-height: 23px;
+}
+
+.about{
+  padding: 0 10px;
+}
+
+.about__h2, .main-header__h1{
+  text-align: center;
+  font-weight: 500;
+  font-size: 33px;
+  margin: 40px 0;
+}
+
+.about__text{
+  font-weight: 300;
+font-size: 20px;
+line-height: 23px;
+color: #2F3C4B;
+}
+
+.about__sertificate{
+  width: 80%;
+    margin: 30px 10%;
+  height: auto;
+}
+
+@media (min-width: 650px){
+  .about{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    align-items: center;
+  }
+
+  .about__h2{
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  
+}
+
+@media (min-width: 980px){
+
+  .main-header__wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+    text-align: right;
+    align-items: center;
+    padding: 0;
+  }
+  .main-header__h1{
+    text-align: right;
+    font-size: 45px;
+    margin-top: -10px;
+    line-height: 50px;
+  }
+  .main-header__img{
+    width: 100%;
+    height: max-content;
+  }
+  .main-header__text-wrp{
+    max-width: 550px;
+  }
+}
