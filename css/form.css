@@ -131,10 +131,14 @@
     box-shadow: none;
     -webkit-appearance: none;
     -moz-appearance: none;
+    border-radius: 0;
+    -webkit-appearance: none;
+    background-color: #FBFBFB;
+    -moz-appearance: none;
+    appearance: none;
   }
  
   .form__select:after{
-    background-color: #fff;
   }
   .form__input:focus{
     border: 1px solid #A68E6A;
