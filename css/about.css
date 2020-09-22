@@ -89,10 +89,11 @@ color: #2F3C4B;
     line-height: 50px;
   }
   .main-header__img{
-    width: 100%;
-    height: max-content;
+    width: 53%;
   }
   .main-header__text-wrp{
+    padding: 2% 1%;
+    width: 43%;
     max-width: 550px;
   }
 }
