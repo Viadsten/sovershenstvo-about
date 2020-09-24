@@ -10,6 +10,7 @@
     text-align: center;
     color: #AFB6BE;
     font-size: 18px;
+    margin: 0;
     display: block;
     transition: .2s all ease-out;
 }
@@ -20,13 +21,104 @@
 
 .article__nav-toggle img{
     transition: .2s all ease-out;
-
     width: 16px;
     height: 10px;
     margin-left: 5px;
     transform: rotate(-90deg);
 }
 
-.article__nav-list{
+input[type=radio]{
     display: none;
+}
+
+.article__nav-list{
+    padding: 20px 20px;
+    margin: 0;
+    display: none;
+    list-style: none;
+    background-color: #27323f;
+    font-size: 18px;
+    line-height: 35px;
+    color: #A99272;
+}
+.article__radio-btn:not(:disabled)+label:hover{
+    opacity: 0.7;
+  }
+.article__radio-btn:checked+label{
+    color: #bfc5ce;
+    opacity: 1;
+  }
+  
+.article__text{
+    transition: .2s all ease-out;
+    background-color: #1A242D;
+    padding: 10px 20px;
+}
+
+.article__text--disabled{
+    display: none;
+    transition: .2s all ease-out;
+}
+
+.article__h2{
+    margin: 0 0;
+    transition: .2s all ease-out;
+    text-transform: uppercase;
+    color: #A68F6F;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 50px;
+    padding-top: 30px;
+}
+
+.article__p{
+    color: #fff;
+    font-size: 17px;
+    line-height: 23px;
+    white-space: pre-wrap;
+}
+
+@media (min-width: 920px){
+    .article__nav-toggle{
+        margin-top: 0;
+        text-align: left;
+        padding: 20px 20px 80px 20px;
+        font-size: 27px;
+        line-height: 30px;
+        font-weight: 300;
+        box-sizing: border-box;
+        width: 270px;
+
+    }
+    .article__nav-toggle img{ 
+        display: none;
+    }
+    .article__nav-wrapper{
+        height: 625px;
+    }
+    .article__nav-list{
+        display: block;
+        width: 230px;
+        font-size: 18px;
+        height: 485px;
+        font-weight: 300;
+        overflow-y: scroll;
+        background-color: #171E26;
+    }
+    .article__header{
+        display: flex;
+        justify-content: space-between;
+    }
+    .article__text-wrapper{
+        font-weight: 300;
+        height: 625px;
+        overflow-y: scroll;
+        font-size: 20px;
+        width: 100%;
+        background-color: #1A242D;
+    }
+    .article__text{
+        padding: 50px 70px;
+    }
+
 }
