@@ -51,10 +51,11 @@ input[type=radio]{
   
 .article__text{
     transition: .2s all ease-out;
-    background-color: #1A242D;
     padding: 10px 20px;
 }
-
+.article__text-wrapper{
+    background-color: #1A242D;
+}
 .article__text--disabled{
     display: none;
     transition: .2s all ease-out;
@@ -116,6 +117,9 @@ input[type=radio]{
         font-size: 20px;
         width: 100%;
         background-color: #1A242D;
+        background-image: url('../img/article--bg.jpg');
+        background-size: cover;
+        background-position: top;
     }
     .article__text{
         padding: 50px 70px;
