@@ -22,7 +22,7 @@
 .call{
     width: 90%;
     min-height: 1150px;
-    box-shadow: 0px 0px 15px rgba(100, 100, 100, 0.4);
+    background-color: #171E26;
     margin: 40px auto;
     padding: 20px 10px;
     box-sizing: border-box;
@@ -30,6 +30,7 @@
     margin-bottom: 100px;
 }
 .call__h2{
+    color: #D6D6D6;
     text-transform: uppercase;
     font-size: 25px;
     text-align: center;
@@ -49,6 +50,7 @@
     text-transform: uppercase;
     height: 200px;
     display: flex;
+    color: #D6D6D6;
     flex-direction: column;
     justify-content: space-between;
   }
@@ -104,7 +106,7 @@
       font-weight: 300;
       font-size: 15px;
       line-height: 18px;
-      color: #797979;
+      color: #D6D6D6;
   }
   
   .form__input{

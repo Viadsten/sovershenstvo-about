@@ -1,0 +1,32 @@
+.page{
+    font-family: 'Roboto';
+}
+
+.article__nav-toggle{
+    width: 100%;
+    background-color: #171E26;
+    height: 70px;
+    border: none;
+    text-align: center;
+    color: #AFB6BE;
+    font-size: 18px;
+    display: block;
+    transition: .2s all ease-out;
+}
+
+.article__nav-toggle br{
+    display: none;
+}
+
+.article__nav-toggle img{
+    transition: .2s all ease-out;
+
+    width: 16px;
+    height: 10px;
+    margin-left: 5px;
+    transform: rotate(-90deg);
+}
+
+.article__nav-list{
+    display: none;
+}
