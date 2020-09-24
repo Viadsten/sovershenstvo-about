@@ -250,9 +250,24 @@
         height: 40px;
         flex-direction: row;
       }
-
+      .form__radio--options{
+          flex-wrap: wrap;
+          height: 100px;
+          justify-content: space-around;
+      }
+      .form__radio--options:last-child{
+        
+      }
       .form-label--1{
           margin-bottom: 40px;
       }
       
+}
+
+@media (min-width: 1140px){
+    .form__radio--options{
+
+        justify-content: space-between;
+
+    }
 }
